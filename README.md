@@ -25,7 +25,7 @@ or download and extract the repository .zip file.
     -   In the  **Name**  section, enter a meaningful application name that will be displayed to users of the app, for example  `WebAPI-OAuth2`.
     -   In the  **Supported account types**  section, select  **Accounts in this organizational directory only (Default Directory)**.
     -   In the Redirect URI (optional) section, select  **Web**  in the combo-box and enter the following redirect URIs.
-        -   `https://localhost:44323/`
+        -   `https://localhost:44396/`
     
     > Note that if there are more than one redirect URIs, you'd need to add them from the  **Authentication**  tab later after the app has been created succesfully.
     
