@@ -50,7 +50,7 @@ Clean the solution, rebuild the solution, and run it.
 
 ## To call the Web API from Angular Application 
 
-check  [**msal-angular7** ]([https://github.com/SainathReddy-GNV/msal-angular7](https://github.com/SainathReddy-GNV/msal-angular7)) repository 
+check  [msal-angular7](https://github.com/SainathReddy-GNV/msal-angular7) repository 
 
 
 
