@@ -31,7 +31,16 @@ or download and extract the repository .zip file.
     
 3.  Select  **Register**  to create the application.
     
-4.  On the app  select  **Expose an API**  page, find the  **Application  ID URI**  value and record it for later. You'll need it to configure the Visual Studio configuration file for this project.
+4.  On the app  select  **Expose an API**  page, Next to the **Application ID URI** select **Set** option. In the **Set the App ID URI** popup you will see default Application ID URI, for example `api://<Appication ID>`. click on save and record the **Application ID URI** for later. You'll need it to configure the Visual Studio configuration file for this project.
+
+5.  To expose an API we need to add a scope. In **Expose an API** page, Click on **Add Scope**, In **Add a Scope** provide the scope information: 
+	- In  the **scope name** section add value as `user-impersonation`.
+	-  In the **who can consent?** section, select `Admins and users`.
+	-  In **Admin consent display name** section add meaningful name which is displayed as name in the consent page for admin, for example `Access Web API` .
+	- In **Admin consent description** section add meaningful description which is displayed as description in the consent page for admin, for example `Allow Application to access Web API on behalf of user` .
+	-  Copy the same name and description as in Admin consent for **user consent display name** and **user consent description** (OPTIONAL).
+	- Set **state** to `Enabled`.
+	- Click on **Add scope**.
 
 
 ### Step 3: Configure the Web API to use your Azure AD tenant
